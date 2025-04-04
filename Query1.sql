@@ -39,7 +39,7 @@ INSERT INTO students (id, name, enrolled_at, course_id) VALUES
 
 
 
-//Questão A:
+/*Questão A:*/
 SELECT 
     schools.name AS nomeEscola,
     students.enrolled_at AS dataInscricao,
@@ -52,7 +52,7 @@ WHERE courses.name not like 'Data%'
 GROUP BY nomeEscola, dataInscricao
 ORDER BY dataInscricao DESC;
 
-//Questão B:
+/*Questão B:*/
 
 SELECT 
     schools.name AS nomeEscola,
